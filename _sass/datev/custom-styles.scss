@@ -1,0 +1,62 @@
+body {
+    background: #E8ECEF;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(93.19deg, #3E7587 -34.21%, #7DB8C8 139.76%);
+}
+
+header h1 {
+    margin: 1.5rem;
+    font-family: 'Compatil DATEV';
+    color: #FFFFFF;
+}
+
+header nav ul {
+    margin: 0 1.5rem;
+    padding: 0;
+    list-style-type: none;
+    overflow: visible;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    display: block;
+    float: left;
+    padding: 1rem;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 0px 4px 0px 0px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+}
+
+header nav ul li a.active {
+    margin-top: -0.25rem;
+    padding-top: 1.25rem;
+    background: #f6f9fa;
+    border-radius: 4px 4px 0px 0px;
+    color: #0f0f0f;
+}
+
+main section {
+    display: block;
+    position: relative;
+    margin: 0 0.75rem 0.75rem 0.75rem;
+    padding: 1rem;
+    background-color: #f6f9fa;
+}

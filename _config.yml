@@ -1,0 +1,6 @@
+defaults:
+  -
+    values:
+      layout: "page"
+kramdown:
+  header_offset: 1

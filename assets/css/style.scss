@@ -1,0 +1,7 @@
+---
+---
+
+@import
+  "datev/skins/{{ site.datev.skin | default: 'default' }}",
+  "datev/initialize"
+;
